@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/previd"
+        android:onClick="previousonclick"
+
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:text="PREVIOUS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/nextid"
+        android:onClick="nextonclick"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:text="NEXT"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/previd"
+        android:layout_toEndOf="@+id/previd" />
+
+    <Button
+        android:id="@+id/gotoid"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:text="GOTO"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/nextid"
+        android:layout_toEndOf="@+id/nextid" />
+
+    <EditText
+        android:id="@+id/pageid"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Page Number"
+        android:inputType="textPersonName" />
+</RelativeLayout>

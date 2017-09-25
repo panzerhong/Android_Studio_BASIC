@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LayoutFrameDemo</string>
+    <string name="content1">Page1 Content Page1 Content Page1 Content Page1 Content Page1 Content Page1 Content</string>
+    <string name="content2">Page2 Content Page2 Content Page2 Content Page2 Content Page2 Content</string>
+    <string name="content3">Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 Page3 </string>
+    <string name="content4">Page4      Page4 Page4      Page4 Page4      Page4 Page4      Page4 Page4      Page4 Page4      Page4 Page4      Page4 Page4      Page4 </string>
+    <string name="content5">Page  5         Page  5         Page  5         Page  5         Page  5         Page  5         Page  5         Page  5         </string>
+</resources>

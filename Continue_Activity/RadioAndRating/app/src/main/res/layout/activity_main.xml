@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.radioandrating.MainActivity"
+    android:background="@color/colorPrimary">
+    <LinearLayout android:id="@+id/innerLayout1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        >
+        <EditText android:id="@+id/editText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Enter your name : "
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout android:id="@+id/innerLayout2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <TextView android:id="@+id/gendetText"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Gender"/>
+            <RadioGroup
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"/>
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"/>
+                <RadioButton
+                    android:id="@+id/others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Others"/>
+            </RadioGroup>
+            <Button android:id="@+id/click"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Click"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
